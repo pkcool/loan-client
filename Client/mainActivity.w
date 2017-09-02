@@ -37,32 +37,84 @@
    			</div>
         </div> 
       </div> 
-      <div class="x-contents-content" xid="content2"> 
-        <div component="$UI/system/components/justep/panel/panel" 
-          class="x-panel x-full" > 
-            <div class="x-panel-top"> 
+
+      <div class="x-contents-content" xid="content2">
+        <div component="$UI/system/components/justep/panel/panel"
+          class="x-panel x-full" >
+            <div class="x-panel-top">
               <div component="$UI/system/components/justep/titleBar/titleBar" title="征信记录"
                 class="x-titlebar">
-                <div class="x-titlebar-left"> 
+                <div class="x-titlebar-left" style="background-color:transparent;">
                   <a component="$UI/system/components/justep/button/button"
                     label="" class="btn btn-link btn-only-icon" icon="icon-chevron-left"
-                    onClick="{operation:'contents.prev'}" xid="backBtn2"> 
-                    <i class="icon-chevron-left"/>  
-                    <span></span> 
-                  </a> 
-                </div>  
-                <div class="x-titlebar-title">征信记录</div>  
-                           <div class="x-titlebar-right"> 
+                    onClick="{operation:'contents.prev'}" xid="backBtn2" style="width:100%;">
+                    <i class="icon-chevron-left"/>
+                    <span></span>
+                  </a>
+                </div>
+                <div class="x-titlebar-title">征信记录</div>
+                           <div class="x-titlebar-right">
                   <a component="$UI/system/components/justep/button/button"
                     label="" class="btn btn-link btn-only-icon" icon="icon-chevron-right"
-                    href="#!content3" xid="nextBtn1" style="width:100%;"> 
-                    <i class="icon-chevron-right"/>  
-                    <span></span> 
-                  </a> 
+                    href="#!content3" xid="nextBtn1" style="width:100%;">
+                    <i class="icon-chevron-right"/>
+                    <span></span>
+                  </a>
                   </div>
-              </div> 
-            </div>  
-	      <div class="x-panel-content"/>
+              </div>
+            </div>
+	      <div class="x-panel-content" style="left:20px; right:20px;">
+
+
+  <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit4">
+   <label class="x-label" xid="label4"><![CDATA[近2年逾期总数]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input4" style="height:100%;" dataType="Integer"></input></div>
+
+        <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit5">
+   <label class="x-label" xid="label5"><![CDATA[近2年逾期大于90天次数]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input5"></input></div>
+
+        <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit6">
+   <label class="x-label" xid="label6"><![CDATA[近2年逾期61-90天次数]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input6"></input></div>
+
+           <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit7">
+   <label class="x-label" xid="label7"><![CDATA[近2年逾期31-60天次数]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input7"></input></div>
+
+     <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit4">
+   <label class="x-label" xid="label4"><![CDATA[近1年逾期总数]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input4" style="height:100%;" dataType="Integer"></input></div>
+
+        <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit5">
+   <label class="x-label" xid="label5"><![CDATA[近1年逾期大于90天次数]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input5"></input></div>
+
+        <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit6">
+   <label class="x-label" xid="label6"><![CDATA[近1年逾期61-90天次数]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input6"></input></div>
+
+           <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit7">
+   <label class="x-label" xid="label7"><![CDATA[近1年逾期31-60天次数]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input7"></input></div>
+
+     <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit4">
+   <label class="x-label" xid="label4"><![CDATA[近半年逾期总数]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input4" style="height:100%;" dataType="Integer"></input></div>
+
+        <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit5">
+   <label class="x-label" xid="label5"><![CDATA[近半年逾期大于90天次数]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input5"></input></div>
+
+        <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit6">
+   <label class="x-label" xid="label6"><![CDATA[近半年逾期61-90天次数]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input6"></input></div>
+
+           <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit7">
+   <label class="x-label" xid="label7"><![CDATA[近半年逾期31-60天次数]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input7"></input></div>
+
+   </div>
         </div> 
       </div> 
       
