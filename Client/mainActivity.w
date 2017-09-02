@@ -66,53 +66,65 @@
 	      <div class="x-panel-content" style="left:20px; right:20px;">
 
 
-  <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit4">
+  <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit8">
+   <label class="x-label" xid="label8"><![CDATA[信用卡使用时间]]></label>
+   <select component="$UI/system/components/justep/select/select" class="form-control x-edit" xid="select2" bind-options="creditCardUsage"></select></div>
+
+     <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit8">
+   <label class="x-label" xid="label8"><![CDATA[贷款记录时间]]></label>
+   <select component="$UI/system/components/justep/select/select" class="form-control x-edit" xid="select2" bind-options="loanRecord"></select></div>
+
+        <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit8">
+   <label class="x-label" xid="label8"><![CDATA[当前是否逾期]]></label>
+   <select component="$UI/system/components/justep/select/select" class="form-control x-edit" xid="select2" bind-options="isOverdue" bind-optionsCaption="否"></select></div>
+
+   <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit4">
    <label class="x-label" xid="label4"><![CDATA[近2年逾期总数]]></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input4" style="height:100%;" dataType="Integer"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input4" style="height:100%;" dataType="Integer" placeHolder="0"></input></div>
 
         <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit5">
    <label class="x-label" xid="label5"><![CDATA[近2年逾期大于90天次数]]></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input5"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input5" dataType="Integer" placeHolder="0"></input></div>
 
         <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit6">
    <label class="x-label" xid="label6"><![CDATA[近2年逾期61-90天次数]]></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input6"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input6" dataType="Integer" placeHolder="0"></input></div>
 
            <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit7">
    <label class="x-label" xid="label7"><![CDATA[近2年逾期31-60天次数]]></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input7"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input7" dataType="Integer" placeHolder="0"></input></div>
 
      <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit4">
    <label class="x-label" xid="label4"><![CDATA[近1年逾期总数]]></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input4" style="height:100%;" dataType="Integer"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input4" style="height:100%;" dataType="Integer" placeHolder="0"></input></div>
 
         <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit5">
    <label class="x-label" xid="label5"><![CDATA[近1年逾期大于90天次数]]></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input5"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input5" dataType="Integer" placeHolder="0"></input></div>
 
         <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit6">
    <label class="x-label" xid="label6"><![CDATA[近1年逾期61-90天次数]]></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input6"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input6" dataType="Integer" placeHolder="0"></input></div>
 
            <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit7">
    <label class="x-label" xid="label7"><![CDATA[近1年逾期31-60天次数]]></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input7"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input7" dataType="Integer" placeHolder="0"></input></div>
 
      <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit4">
    <label class="x-label" xid="label4"><![CDATA[近半年逾期总数]]></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input4" style="height:100%;" dataType="Integer"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input4" style="height:100%;" dataType="Integer" placeHolder="0"></input></div>
 
         <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit5">
    <label class="x-label" xid="label5"><![CDATA[近半年逾期大于90天次数]]></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input5"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input5" dataType="Integer" placeHolder="0"></input></div>
 
         <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit6">
    <label class="x-label" xid="label6"><![CDATA[近半年逾期61-90天次数]]></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input6"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input6" dataType="Integer" placeHolder="0"></input></div>
 
            <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit7">
    <label class="x-label" xid="label7"><![CDATA[近半年逾期31-60天次数]]></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input7"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input7" dataType="Integer" placeHolder="0"></input></div>
 
    </div>
         </div> 
