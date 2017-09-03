@@ -127,35 +127,69 @@
    <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input7" dataType="Integer" placeHolder="0"></input></div>
 
    </div>
-        </div> 
-      </div> 
-      
-      <div class="x-contents-content" xid="content3"> 
-        <div component="$UI/system/components/justep/panel/panel" 
-          class="x-panel x-full" > 
-            <div class="x-panel-top"> 
+        </div>
+      </div>
+
+      <div class="x-contents-content" xid="content3">
+        <div component="$UI/system/components/justep/panel/panel"
+          class="x-panel x-full" >
+            <div class="x-panel-top">
               <div component="$UI/system/components/justep/titleBar/titleBar" title="负债"
                 class="x-titlebar">
-                <div class="x-titlebar-left"> 
+                <div class="x-titlebar-left">
                   <a component="$UI/system/components/justep/button/button"
                     label="" class="btn btn-link btn-only-icon" icon="icon-chevron-left"
-                    onClick="{operation:'contents.prev'}" xid="backBtn2"> 
-                    <i class="icon-chevron-left"/>  
-                    <span></span> 
-                  </a> 
-                </div>  
-                <div class="x-titlebar-title">负债</div>  
-                           <div class="x-titlebar-right"> 
+                    onClick="{operation:'contents.prev'}" xid="backBtn2">
+                    <i class="icon-chevron-left"/>
+                    <span></span>
+                  </a>
+                </div>
+                <div class="x-titlebar-title">负债</div>
+                           <div class="x-titlebar-right">
                   <a component="$UI/system/components/justep/button/button"
                     label="" class="btn btn-link btn-only-icon" icon="icon-chevron-right"
-                    href="#!content1" xid="nextBtn1" style="width:100%;"> 
-                    <i class="icon-chevron-right"/>  
-                    <span></span> 
-                  </a> 
+                    href="#!content1" xid="nextBtn1" style="width:100%;">
+                    <i class="icon-chevron-right"/>
+                    <span></span>
+                  </a>
                   </div>
-              </div> 
-            </div>  
-	      <div class="x-panel-content"/>
+              </div>
+            </div>
+	      <div class="x-panel-content" style="left:20px;right:20px">
+
+	      <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit1">
+   <label class="x-label" xid="label1"><![CDATA[信用卡总额(元)]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input1" dataType="Integer"></input></div>
+
+   	      <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit1">
+   <label class="x-label" xid="label1"><![CDATA[信用卡当前已使用额(元)]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input1" dataType="Integer"></input></div>
+
+      	      <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit1">
+   <label class="x-label" xid="label1"><![CDATA[信用卡近半年平均使用额(元)]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input1" dataType="Integer"></input></div>
+
+         	      <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit1">
+   <label class="x-label" xid="label1"><![CDATA[信贷余额(元)]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input1" dataType="Integer"></input></div>
+
+         	      <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit1">
+   <label class="x-label" xid="label1"><![CDATA[信贷月供(元)]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input1" dataType="Integer"></input></div>
+
+            	      <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit1">
+   <label class="x-label" xid="label1"><![CDATA[抵押贷款余额(元)]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input1" dataType="Integer"></input></div>
+
+            	      <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit1">
+   <label class="x-label" xid="label1"><![CDATA[抵押贷款月供(元)]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input1" dataType="Integer"></input></div>
+
+            	      <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60" xid="labelEdit1">
+   <label class="x-label" xid="label1"><![CDATA[小额贷款余额(元)]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input1" dataType="Integer"></input></div>
+
+   </div>
         </div> 
       </div> 
 
